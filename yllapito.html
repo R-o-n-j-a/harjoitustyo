@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auton ylläpito</title>
+    <link rel="stylesheet" href="css/tyylit.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script> 
+</head>
+<body>
+    <header>
+        <h1>Auton ylläpito ja huoltokirja</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="galleria.html">Galleria</a></li>
+                <li><a href="yllapito.html">Auton ylläpito</a></li>
+                <li><a href="linkit.html">Palaute</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="kasa">
+            <section class="huolto">
+                <h2>Lisää huoltotoimenpide</h2>
+                <form id="huoltoForm">
+                    <label for="huolto">Huoltotoimenpide:</label>
+                    <input type="text" id="huolto" name="huolto" required>
+                    <label for="pvm">Päivämäärä:</label>
+                    <input type="date" id="pvm" name="pvm" required>
+                    <label for="kilsat">Kilometrit:</label>
+                    <input type="number" id="kilsat" name="kilsat" required>
+                    <button type="submit">Lisää</button>
+                </form>
+                <div style="height: 2em;"></div>
+                <h2>Huoltokirja</h2>
+                <ul id="huoltokirja"></ul>
+                <div style="height: 18em;"></div>
+            </section>
+            <section class="vinkit">
+                <h2>Saat satunnaisen auton ylläpito vinkin painamalla nappia</h2>
+                <div id="vinkki-container"></div> 
+            </section>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Web-ohjelmoinnin harjoitustyö</p>
+    </footer>
+</body>
+</html>
