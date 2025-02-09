@@ -48,3 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById('huoltoForm').addEventListener('submit', addMaintenanceEntry);
         document.addEventListener('DOMContentLoaded', displayMaintenanceLog);
 });
+    function toggleMenu() {
+        document.querySelector("nav ul").classList.toggle("nav-active");
+}
