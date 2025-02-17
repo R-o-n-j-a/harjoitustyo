@@ -19,12 +19,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .palaute input, 
-    .palaute textarea, 
-    .palaute button {
-        width: 100%;
-        font-size: 18px;
-    }
 
     nav ul {
         display: none;
@@ -76,10 +70,6 @@
 
     .gallery-item {
         width: 100%;
-    }
-
-    .palaute {
-        max-width: 90%;
     }
 
     .kasa {
@@ -341,31 +331,6 @@ footer a:hover {
 
 .footer-links p:last-child {
     border-right: none;
-}
-
-.palaute {
-    background: #f4f4f4;
-    padding: 10px;
-    border-radius: 8px;
-    max-width: 300px;
-    margin: 20px auto;
-    text-align: center;
-}
-.palaute input,
-.palaute textarea {
-    width: 90%;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-.palaute button {
-    background: #b9c5d3;
-    color: white;
-    padding: 8px;
-    border: none;
-    cursor: pointer;
-}
-.palaute button:hover {
-    background: #8698a4;
 }
 
 .kasa{
